@@ -1,0 +1,5 @@
+classes = 2
+train = pizzapizza/train.txt
+valid = pizzapizza/valid.txt
+names = pizzapizza/classes.names
+backup = pizzapizza/weights_backup

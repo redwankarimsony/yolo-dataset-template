@@ -1,0 +1,1 @@
+./darknet/darknet detector train pizzapizza/pizzapizza.data pizzapizza/cfg/yolov3-custom-train.cfg pizzapizza/weights_backup/<> -dont_show -map
