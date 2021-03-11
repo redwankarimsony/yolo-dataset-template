@@ -20,7 +20,7 @@ print(f'{data_dir_name}/inference.txt is written with {len(image_file_paths)} im
 
 # Creating coco.names and putting the labels from the classes.txt file
 with open(f'{data_dir_name}/classes.txt',  'r') as f1:
-    with  open(f'coco.names',  'w') as f2:  #coco.names is created outside data_dir_name folder from where we run everything
+    with  open(f'coco.names',  'w') as f2:  #coco.names is now created outside data_dir_name folder from where we run everything. This needs to be inside "data".
     	classes = f1.read().strip().split('\n')
     	f2.write('\n'.join(classes))
     	no_of_classes = len(classes)
